@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+/* navbar */ 
+
+.hidden {
+    display: none; 
+    position: absolute;
+    right: -100%;
+    top: 0;
+    transition: right 0.3s; 
+  }
+
+
+  .visible {
+    display: block; 
+    right: 0;
+  }
+
+  .livissible {
+    display: none;
+  }
+  
+  .navvissible {
+    width: 70px;
+  }
+
+nav  {
+    background-color:#383838;
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+
+}
+  
+.btn {
+    width: 40px;
+    height: 40px;
+    border: none;  
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+}
+
+li {
+    width: 100%;
+    line-height: 1.7;
+    height: 50px;
+    display: flex;
+
+}
+
+li:hover {
+    background-color: #272727;
+    border-radius: 5px;
+}
+
+.imglink {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.linkli {
+    width: 190px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    
+}
+
+/* navbar */
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-color: #272727;
+    display: flex;
+    
+}
+
+.top {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1%;
+    padding-right: 5%;
+}
+
+.margins {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.hamburger {
+    width: 100%;
+    height: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+.admin {
+    background-color: #212020;
+    width: 100%;
+    height: 70px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: calc(100%);
+    height: 100%;
+
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+
+}
+
+.green {
+    color: #008000;
+}
+
+
+
+
+
+@media  screen and (max-width: 700px) {
+
+    .hidden {
+        display: none; 
+        position: absolute;
+        right: -100%;
+        background-color: aquamarine;
+        top: 0;
+        transition: right 0.3s; 
+      }
+
+}
